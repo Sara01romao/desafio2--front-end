@@ -27,6 +27,10 @@ nav ul li{
   margin: 10px 30px;
  
 }
+nav ul li:hover{
+  border-bottom: 3px solid #6477B6;
+ 
+}
 
 a{
   text-decoration: none;
@@ -131,36 +135,38 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
+margin-bottom: 100px;
 }
 #marcas img{
   margin: 10px 30px;
 }
 
 /*------------------Serviços-----------------------------------/*/
-#s2{
-  margin: 20px 25px ;
-  max-width: 1920px;
-  justify-content: center;
-  
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
+
 
 .info2{
   width: 595px;
-  height: 500px;
- 
-  margin: 20px 25px;
-  padding: 0px 0px 100px 0px;
+  height: 400px;
+  
+  margin: 0px 25px;
+  
 
 }
+
 
 .texto2{
   width: 860px;
   height: 291px;
-}
+  
 
+}
+h5{
+  font-size: 20px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  color: rgb(131, 131, 131);
+  font-family: 'Roboto', sans-serif;
+}
 .texto2 h1{
   font-size: 65px;
   padding: 60px 60px 0px 60px;
@@ -178,33 +184,56 @@ justify-content: center;
 }
 
 #cards{
-  margin-top: 70px;
-  margin-bottom: 20px;
-  margin-left: 35px;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 1018px;
-  height: 219px;
+ 
+margin-left: 55px;
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: left;
+margin-bottom: 50px;
+  
   
 }
 
 .card{
   width: 231px;
   height: 219px;
-  background: #6477B6;
-  border: 1px solid black;
-  margin-left: 14px;
+  background: #F2F5FF;
+  margin-top: 20px;
+  margin-left: 30px;
   
+  
+  
+}
+
+.icons{
+  width: 20px;
+  height: 20px;
+  padding: 39px 31px;
+  line-height: 100px;
+}
+
+.title{
+  font-size: 18px;
+  margin: 44px 0px 0px 31px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #b3{
   margin: 50px;
+  
 }
 
 #b3 button{
+  margin-left: 35px;
   width: 310px;
   height: 60px;
+  border: none;
+  color: white;
+  background: #6477B6;
+}
+
+#b3 button:hover{
+  background: #7088da;
 }
