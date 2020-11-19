@@ -115,6 +115,7 @@ a{
   font-size: 65px;
   padding: 60px 60px 0px 60px;
   color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .texto p{
@@ -122,7 +123,7 @@ a{
   padding: 20px 60px 0px 60px;
   text-align: justify;
   color: black;
-  
+  font-family: 'Roboto', sans-serif;
 }
 
 #botoes{
