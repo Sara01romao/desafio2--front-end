@@ -237,3 +237,48 @@ margin-bottom: 50px;
 #b3 button:hover{
   background: #7088da;
 }
+
+/*-------------About-----------------------*/
+.faces{
+  
+  width:522px;
+  height: 506px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+  }
+  .faces img{
+    width: 151.56px;
+    height: 151.77px;
+    margin-left: 18px;
+    
+    
+  }
+  
+.cont2{
+    display: inline;
+    float: right;
+    margin-right: 80px;
+}
+
+.cont2 h1{
+  margin-top: 0px;
+  width: 563px;
+  height: 132px;
+  font-size: 55px;
+}
+
+.cont2 p{
+  width: 684px;
+  height: 128px;
+  font-size: 20px;
+}
+
+.texto2 a{
+  margin-left: 60px;
+  font-size: 20px;
+  color: #6477B6;
+}
