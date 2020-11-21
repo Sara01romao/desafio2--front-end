@@ -221,7 +221,7 @@ margin-bottom: 50px;
 }
 
 #b3{
-  margin: 50px;
+  margin: 50px 50px 150px 50px;
   
 }
 
@@ -239,6 +239,11 @@ margin-bottom: 50px;
 }
 
 /*-------------About-----------------------*/
+
+#s3{
+  margin-top: 500px;
+}
+
 .faces{
   
   width:522px;
@@ -282,3 +287,8 @@ margin-bottom: 50px;
   font-size: 20px;
   color: #6477B6;
 }
+
+.texto2 a:hover{
+  color: #8c8ce7
+}
+
