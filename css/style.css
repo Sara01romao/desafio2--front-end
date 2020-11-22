@@ -298,13 +298,15 @@ margin-bottom: 50px;
 @media screen and (max-width: 600px) {
 	.info {
     background: #F9C;
-    width: 400px;
+    width: 450px;
     height: 344px;
+    
+  
   }
   
   .texto{
     width: 400px;
-    height: 600px;
+    height: 340px;
     border: 1px solid black;
   }
 
@@ -325,7 +327,20 @@ margin-bottom: 50px;
     font-size: 18px;
 
   }
+ #botoes{
+  margin: 0px 20px;
+  justify-content: center;
+  padding: 10px 10px;
+ }
 
+ button{
+  width: 150px;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 2px;
+  border-radius: 3px;
+}
   .info img{
      display: none;
   }
