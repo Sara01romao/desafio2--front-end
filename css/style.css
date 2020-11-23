@@ -56,7 +56,7 @@ a{
 
 }
 
-.info{
+.info {
   width: 595px;
   height: 500px;
  
@@ -122,7 +122,7 @@ button{
   border: 1px solid black;
 }
 
-.info img{
+.infoI img{
   width: 595px;
   height: 581px;
 
@@ -294,24 +294,25 @@ margin-bottom: 50px;
 
 /*----------------------------------*/
 
-/* max-width  */
+
 @media screen and (max-width: 600px) {
-	.info {
+	 .info, .info2 {
     background: #F9C;
-    width: 450px;
+    width: 600px;
     height: 344px;
+    margin: 0px 0px;
     
   
   }
   
   .texto{
-    width: 400px;
+    width: 500px;
     height: 340px;
     border: 1px solid black;
   }
 
   .texto h1{
-    width: 400px;
+    width: 500px;
     height: 150px;
     font-size: 45px;
     padding-left: 20px;
@@ -319,7 +320,7 @@ margin-bottom: 50px;
   }
 
   .texto p{
-    width: 350px;
+    width: 450px;
     height: 50px;
     margin: 0px 10px 0px 10px;
     
@@ -328,9 +329,10 @@ margin-bottom: 50px;
 
   }
  #botoes{
-  margin: 0px 20px;
+  margin: 10px 20px;
   justify-content: center;
   padding: 10px 10px;
+  justify-items:center ;
  }
 
  button{
@@ -341,8 +343,84 @@ margin-bottom: 50px;
   font-weight: 2px;
   border-radius: 3px;
 }
-  .info img{
-     display: none;
+
+#marcas{
+  margin-top: 90px;
+}
+
+/* .infoI {
+  margin-top: 100px;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+
+} */
+
+
+#imgHome{
+  display: none;
+}
+
+.info2{
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.texto2 h1{
+  width: 500px;
+  font-size: 45px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.texto2 p{
+    width: 450px;
+    height: 50px;
+    padding: 20px;
+
+    margin-bottom: 50px;
+}
+
+#cards{
+ 
+  margin: 10px 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 50px;
+    
+    
+  }
+  
+  .card{
+    width: 231px;
+    height: 219px;
+    background: #F2F5FF;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .faces{
+    display: none;
   }
 
-}
+  .info2{
+    height: 380px;
+  }
+
+  .texto2 p{
+   
+    height: 150px;
+    border: 1px solid black;
+  }
+  .texto2 a{
+    padding: 10px 0px 20px 0px;
+    margin-bottom: 50px;
+  }
+  
+ 
+
+} 
